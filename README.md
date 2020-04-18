@@ -1,4 +1,4 @@
-# React Boilerplate
+# React Boilerplate ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-green.svg)
 
 A simple react boilerplate with webpack hmr and latest babel packages. It comes with inbuilt travis ci for PR checks, lint checks and builds.
 
