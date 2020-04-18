@@ -1,4 +1,4 @@
-# React Boilerplate ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-green.svg)
+# React Boilerplate [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-green.svg)](https://github.com/udaypydi/react-simple-boilerplate/blob/master/CONTRIBUTING.md) 
 
 A simple react boilerplate with webpack hmr and latest babel packages. It comes with inbuilt travis ci for PR checks, lint checks and builds.
 
@@ -12,6 +12,3 @@ A simple react boilerplate with webpack hmr and latest babel packages. It comes 
     
 - Run test cases
     `npm run test`
-
-## Want To Submit A PR?
-Refer [Contributing.md](https://github.com/udaypydi/react-simple-boilerplate/blob/master/CONTRIBUTING.md)
