@@ -8,6 +8,10 @@
     <strong>Start your next react project in seconds</strong>
     <br />
     <div>
+         <!-- travis -->
+        <a href="https://travis-ci.org/udaypydi/react-simple-boilerplate">
+            <img src="https://travis-ci.org/udaypydi/react-simple-boilerplate.svg" alt="Test Coverage" />
+        </a>
         <!-- Mit License -->
         <a href="https://github.com/udaypydi/react-simple-boilerplate/blob/master/LICENSE">
             <img src="https://img.shields.io/github/license/udaypydi/react-simple-boilerplate">
@@ -19,7 +23,7 @@
     </div>
 </div>
 
- A simple react boilerplate with webpack hmr and latest babel packages. It comes with inbuilt [Github Actions](https://github.com/features/actions) for PR checks, lint checks and builds. Kick start the development with [Tailwind CSS](https://tailwindcss.com/), [React Hooks](https://reactjs.org/docs/hooks-intro.html) and much more.
+ A simple react boilerplate with webpack hmr and latest babel packages. It comes with inbuilt [Travis CI](https://travis-ci.org/github/udaypydi/react-simple-boilerplate) for PR checks, lint checks and builds. Kick start the development with [Tailwind CSS](https://tailwindcss.com/), [React Hooks](https://reactjs.org/docs/hooks-intro.html) and much more.
 
 ## Getting Started
 <i>These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.</i>
