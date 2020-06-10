@@ -58,7 +58,7 @@ Clone the project, and you’re good to go.
 
 To create a new app, you should clone this repository using the following command:
 
-### npx
+### Clone
 
 ```sh
 git clone https://github.com/udaypydi/react-simple-boilerplate.git my-app
