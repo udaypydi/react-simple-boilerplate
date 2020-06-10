@@ -26,8 +26,7 @@
 A simple react boilerplate with webpack hmr and latest babel packages. It comes with inbuilt [Travis-CI](https://travis-ci.org/) for PR checks, lint checks and builds. Kick start the development with tailwind css, react hooks and much more.
 
 Create React App works on macOS, Windows, and Linux.<br>
-If something doesn’t work, please [file an issue](https://github.com/facebook/create-react-app/issues/new).<br>
-If you have questions or need help, please ask in our [Spectrum](https://spectrum.chat/create-react-app) community.
+If something doesn’t work, please [file an issue](https://github.com/udaypydi/react-simple-boilerplate/issues/new/choose).
 
 ## Quick Overview
 
