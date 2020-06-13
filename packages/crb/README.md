@@ -1,22 +1,22 @@
-# CLI-crasb
+# CLI-CRB
 This repo is a Interactive CLI for the react-simple-boilerplate
 
-# Create React App (Simple Boilerplate - CRASB)
+# Create React Boilerplate
 
 Create React apps with no build configuration offline every time.
 
 Installing the CLI
 For first time you need to install the CRASB CLI via this command, then after you'll be able to create React apps offline.
 
-## `npm install -g react-simple-boilerplate`
+## `npm install -g create-react-boilerplate`
 
 ### Usage
 
-## `CRASB -n <app-name>`
+## `crb -n <app-name>`
 
 for example:
 
-## `CRASB -n my-app`
+## `crb -n my-app`
 
 It will create a directory called `my-app` inside the current folder.<br>
 Inside that directory, it will generate the initial project structure.

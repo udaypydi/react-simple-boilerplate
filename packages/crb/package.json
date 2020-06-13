@@ -1,10 +1,10 @@
 {
-  "name": "react-simple-boilerplate",
+  "name": "create-react-boilerplate",
   "version": "1.0.0",
   "description": "A simple react boilerplate with webpack hmr and latest babel packages. It comes with inbuilt Travis-CI for PR checks, lint checks and builds. Kick start the development with tailwind css, react hooks and much more.",
   "main": "./index.js",
   "bin": {
-    "crasb": "./index.js"
+    "crb": "./index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -18,7 +18,7 @@
     "react-simple-boilerplate",
     "react-boilerplate"
   ],
-  "author": "Harish Mamidi",
+  "author": "Uday Bhaskhar",
   "license": "MIT",
   "dependencies": {
     "7zip-min": "^1.1.2",
