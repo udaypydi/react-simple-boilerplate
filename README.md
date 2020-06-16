@@ -49,7 +49,7 @@ Clone the project, and you’re good to go.
 
 ### Prerequisites
 
-- [yarn](https://classic.yarnpkg.com/en/docs/install/)
+- [yarn](https://classic.yarnpkg.com/en/docs/install/) (version > 1.0.0)
 - [node](https://nodejs.org/en/download/)
 
 ## Creating an App
