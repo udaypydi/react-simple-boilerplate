@@ -95,6 +95,11 @@ By default, runs tests related to files changed since the last commit.
 
 [Read more about testing.](https://testing-library.com/docs/react-testing-library/intro)
 
+### `npm run lint`
+
+Runs the eslint over the `src` dir. You get a list of list errors and warnings if any.
+Use `npm run lint:fix` to auto fix the lint issues.
+
 ### `npm run build` or `yarn build`
 
 Builds the app for production to the `build` folder.<br>
