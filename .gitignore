@@ -3,5 +3,8 @@ build/
 .gitignore
 coverage/
 
+
 # nextjs build artifacts
 website/.next
+website/npm-debug.log
+npm-debug.log
