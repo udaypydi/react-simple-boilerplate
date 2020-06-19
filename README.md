@@ -98,7 +98,10 @@ By default, runs tests related to files changed since the last commit.
 ### `npm run lint`
 
 Runs the eslint over the `src` dir. You get a list of list errors and warnings if any.
-Use `npm run lint:fix` to auto fix the lint issues.
+
+### `npm run lint:fix`
+
+Run this command to autofix eslint issues. All the autofixable issues will be fixed.
 
 ### `npm run build` or `yarn build`
 
