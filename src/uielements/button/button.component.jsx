@@ -29,7 +29,7 @@ Button.propTypes = {
   /**
    * @primary: Enable primary button.
    */
-  
+
   primary: PropTypes.bool,
 };
 

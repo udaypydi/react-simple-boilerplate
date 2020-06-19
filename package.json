@@ -7,7 +7,7 @@
     "build": "npm run build:css && webpack ---config ./config/webpack.prod.config.js",
     "dev": "npm run watch:css && webpack-dev-server --config ./config/webpack.dev.config.js --open",
     "lint": "./node_modules/.bin/eslint --ext .js,.jsx src/",
-    "lint: fix": "./node_modules/.bin/eslint --ext .js,.jsx src/ --fix",
+    "lint:fix": "./node_modules/.bin/eslint --ext .js,.jsx src/ --fix",
     "build:css": "postcss src/assets/css/styles.css -o src/assets/css/main.css",
     "watch:css": "postcss src/assets/css/styles.css -o src/assets/css/main.css",
     "test": "cross-env jest --collect-coverage --env=jsdom",
