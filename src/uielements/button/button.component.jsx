@@ -15,8 +15,21 @@ function Button(props) {
   );
 }
 
+/**
+ * Prop Validation
+ */
+
 Button.propTypes = {
+  /**
+   * @buttonText: Text of a button.
+   */
+
   buttonText: PropTypes.string.isRequired,
+
+  /**
+   * @primary: Enable primary button.
+   */
+  
   primary: PropTypes.bool,
 };
 
