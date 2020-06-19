@@ -37,7 +37,7 @@ yarn install
 npm run dev
 ```
 
-Then open [http://localhost:9000/](http://localhost:9000/) to see your app.<br>
+Then open [http://localhost:9000/](http://localhost:9000/) to load your app.<br>
 When you’re ready to deploy to production, create a minified bundle with `npm run build`.
 
 ### Get Started Immediately
