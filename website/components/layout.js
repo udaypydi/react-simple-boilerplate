@@ -6,7 +6,7 @@ function Layout({ children }) {
     <div className='w-100 h-100 d-flex flex-column'>
       <Navbar bg="light" expand="lg">
         <Link href="/" passHref>
-          <Navbar.Brand>React Simple Boilerplate</Navbar.Brand>
+          <Navbar.Brand>React-Simple-Boilerplate</Navbar.Brand>
         </Link>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
