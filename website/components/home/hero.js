@@ -1,3 +1,4 @@
+import Router from 'next/router'
 import { Jumbotron, Container, Button } from 'react-bootstrap'
 
 const Hero = () => (
@@ -7,7 +8,7 @@ const Hero = () => (
       <p>
         Start your next react project in seconds.
       </p>
-      <Button variant='outline-primary'>Get started</Button>
+      <Button variant='outline-primary' onClick={() => Router.push('/docs/getting-started')}>Get started</Button>
     </Container>
   </Jumbotron>
 )
