@@ -25,7 +25,7 @@
 
 A simple react boilerplate with webpack hmr and latest babel packages. It comes with inbuilt [Travis-CI](https://travis-ci.org/) for PR checks, lint checks and builds. Kick start the development with tailwind css, react hooks and much more.
 
-Create React App works on macOS, Windows, and Linux.<br>
+This React Boilerplate works on macOS, Windows, and Linux.<br>
 If something doesn’t work, please [file an issue](https://github.com/udaypydi/react-simple-boilerplate/issues/new/choose).<br>
 
 ## Quick Overview
@@ -37,7 +37,7 @@ yarn install
 npm run dev
 ```
 
-Then open [http://localhost:9000/](http://localhost:9000/) to see your app.<br>
+Then open [http://localhost:9000/](http://localhost:9000/) to load your app.<br>
 When you’re ready to deploy to production, create a minified bundle with `npm run build`.
 
 ### Get Started Immediately
@@ -49,12 +49,12 @@ Clone the project, and you’re good to go.
 
 ### Prerequisites
 
-- [yarn](https://classic.yarnpkg.com/en/docs/install/)
+- [yarn](https://classic.yarnpkg.com/en/docs/install/) (version > 1.0.0)
 - [node](https://nodejs.org/en/download/)
 
 ## Creating an App
 
-**You’ll need to have Node 8.16.0 or Node 10.16.0 or later version on your local development machine** (but it’s not required on the server). You can use [nvm](https://github.com/creationix/nvm#installation) (macOS/Linux) or [nvm-windows](https://github.com/coreybutler/nvm-windows#node-version-manager-nvm-for-windows) to switch Node versions between different projects.
+**You’ll need to have Node 10.16.0 or higher version on your local development machine**. You can use [nvm](https://github.com/creationix/nvm#installation) (macOS/Linux) or [nvm-windows](https://github.com/coreybutler/nvm-windows#node-version-manager-nvm-for-windows) to switch Node versions between different projects.
 
 To create a new app, you should clone this repository using the following command:
 
@@ -93,7 +93,15 @@ You will see the build errors and lint warnings in the console.
 Runs the test watcher in an interactive mode.<br>
 By default, runs tests related to files changed since the last commit.
 
-[Read more about testing.](https://facebook.github.io/create-react-app/docs/running-tests)
+[Read more about testing.](https://testing-library.com/docs/react-testing-library/intro)
+
+### `npm run lint`
+
+Runs the eslint over the `src` dir. You get a list of list errors and warnings if any.
+
+### `npm run lint:fix`
+
+Run this command to autofix eslint issues. All the autofixable issues will be fixed.
 
 ### `npm run build` or `yarn build`
 
