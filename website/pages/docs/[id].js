@@ -1,9 +1,10 @@
 import Layout from '../../components/layout'
 import Head from 'next/head'
 import { getAllDocIds, getDocData, getTopicWiseSortedDocsData } from '../../lib/docs'
-import LeftSideBar from '../../components/docs/left-side-bar'
 import DocContent from '../../components/docs/doc-content'
-import { Row, Col } from 'react-bootstrap'
+import { Row, Col, Container } from 'react-bootstrap'
+import TopicLinks from '../../components/docs/topic-links'
+import TopicsModal from '../../components/docs/topics-modal'
 
 export default function Doc({ docData, topics }) {
   return (
@@ -12,10 +13,13 @@ export default function Doc({ docData, topics }) {
         <title>{docData.title}</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Row>
-        <Col md={3}><LeftSideBar topics={topics} activeDocIndex={docData.index} /></Col>
-        <Col><DocContent title={docData.title} content={docData.contentHtml} /></Col>
-      </Row> 
+      <Container>
+        <Row>
+          <Col lg={3} className='d-none d-lg-block'><TopicLinks topics={topics} activeDoc={docData.title} activeTopic={docData.topic} /></Col>
+          <Col><DocContent title={docData.title} content={docData.contentHtml} /></Col>
+        </Row> 
+      </Container>
+      <TopicsModal topics={topics} activeDoc={docData.title} activeTopic={docData.topic} />
     </Layout>
   )
 }
