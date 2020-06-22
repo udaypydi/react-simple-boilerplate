@@ -13,12 +13,13 @@ export default function Doc({ docData, topics }) {
         <title>{docData.title}</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Container>
-        <Row>
-          <Col lg={3} className='d-none d-lg-block'><TopicLinks topics={topics} activeDoc={docData.title} activeTopic={docData.topic} /></Col>
-          <Col><DocContent title={docData.title} content={docData.contentHtml} /></Col>
-        </Row> 
-      </Container>
+      
+      <Row className='w-100'>
+        <Col lg={3} className='d-none d-lg-block'><TopicLinks topics={topics} activeDoc={docData.title} activeTopic={docData.topic} /></Col>
+        <Col>
+          <Container><DocContent title={docData.title} content={docData.contentHtml} /></Container>
+        </Col>
+      </Row> 
       <TopicsModal topics={topics} activeDoc={docData.title} activeTopic={docData.topic} />
     </Layout>
   )
