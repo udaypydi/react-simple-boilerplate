@@ -1,13 +1,13 @@
 {
   "private": true,
   "workspaces": [
-    "boilerplate",
+    "react-simple-boilerplate",
     "website"
   ],
   "scripts": {
-    "lint": "yarn workspace boilderplate lint",
-    "build": "concurrently 'yarn workspace boilerplate lint' 'yarn workspace website build'",
-    "dev:boilerplate": "yarn workspace boilerplate dev",
+    "lint": "yarn workspace react-simple-boilerplate lint",
+    "build": "concurrently 'yarn workspace react-simple-boilerplate build' 'yarn workspace website build'",
+    "dev:boilerplate": "yarn workspace react-simple-boilerplate dev",
     "dev:website": "yarn workspace website dev"
   },
   "devDependencies": {
