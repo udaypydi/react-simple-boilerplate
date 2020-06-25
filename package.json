@@ -1,4 +1,16 @@
 {
   "private": true,
-  "workspaces": ["boilerplate", "website"]
+  "workspaces": [
+    "boilerplate",
+    "website"
+  ],
+  "scripts": {
+    "lint": "yarn workspace boilderplate lint",
+    "build": "concurrently 'yarn workspace boilerplate lint' 'yarn workspace website build'",
+    "dev:boilerplate": "yarn workspace boilerplate dev",
+    "dev:website": "yarn workspace website dev"
+  },
+  "devDependencies": {
+    "concurrently": "^5.2.0"
+  }
 }
