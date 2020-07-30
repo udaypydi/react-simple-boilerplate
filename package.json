@@ -10,7 +10,7 @@
     "lint:fix": "./node_modules/.bin/eslint --ext .js,.jsx src/ --fix",
     "build:css": "postcss src/assets/css/styles.css -o src/assets/css/main.css",
     "watch:css": "postcss src/assets/css/styles.css -o src/assets/css/main.css",
-    "test": "cross-env jest --collect-coverage --env=jsdom",
+    "test": "cross-env jest --collect-coverage test --env=jsdom",
     "test:watch": "jest --watch"
   },
   "husky": {
@@ -19,7 +19,11 @@
     }
   },
   "lint-staged": {
-    "*.{js,jsx}": "./node_modules/.bin/eslint --ext .js,.jsx src/ && cross-env jest --collect-coverage --env=jsdom"
+    "*.{js,jsx}": [
+      "npm run lint:fix",
+      "npm run lint",
+      "npm run test"
+    ]
   },
   "keywords": [
     "react",
