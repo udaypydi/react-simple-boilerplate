@@ -7,7 +7,7 @@
     "build": "yarn lerna run build",
     "test": "yarn lerna run test",
     "dev": "yarn lerna run dev",
-    "lint": "yarn lerna run lint"
+    "lint": "yarn workspace react-simple-boilerplate lint"
   },
   "devDependencies": {
     "lerna": "^3.22.1"
