@@ -3,6 +3,11 @@
   "workspaces": [
     "packages/*"
   ],
+  "scripts": {
+    "build": "yarn lerna run build",
+    "test": "yarn lerna run test",
+    "dev": "yarn lerna run dev"
+  },
   "devDependencies": {
     "lerna": "^3.22.1"
   },
