@@ -1,16 +1,10 @@
 {
   "private": true,
   "workspaces": [
-    "react-simple-boilerplate",
-    "website"
+    "packages/*"
   ],
-  "scripts": {
-    "lint": "yarn workspace react-simple-boilerplate lint",
-    "build": "concurrently 'yarn workspace react-simple-boilerplate build' 'yarn workspace website build'",
-    "dev:boilerplate": "yarn workspace react-simple-boilerplate dev",
-    "dev:website": "yarn workspace website dev"
-  },
   "devDependencies": {
-    "concurrently": "^5.2.0"
-  }
+    "lerna": "^3.22.1"
+  },
+  "name": "react-simple-boilerplate"
 }
