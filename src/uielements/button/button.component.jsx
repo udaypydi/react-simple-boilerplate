@@ -37,5 +37,4 @@ Button.defaultProps = {
   primary: true,
 };
 
-
 export default Button;
