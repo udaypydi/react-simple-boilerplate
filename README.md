@@ -1,5 +1,5 @@
 <div align="center">
-    <a href="http://react-simple-boilerplate.surge.sh/">
+    <a href="https://react-simple-boilerplate.vercel.app">
         <h1>React Simple Boilerplate</h1>
     </a>
 </div>
