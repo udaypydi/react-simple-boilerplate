@@ -23,7 +23,7 @@
     </div>
 </div>
 
-A simple react boilerplate with webpack hmr and latest babel packages. It comes with inbuilt [Travis-CI](https://travis-ci.org/) for PR checks, lint checks and builds. Kick start the development with tailwind css, react hooks and much more.
+A simple react boilerplate with webpack hmr and latest babel packages. It comes with inbuilt [Travis-CI](https://travis-ci.org/) for PR checks, lint checks and builds. Kick start the development with tailwind css, react hooks and much more. It comes with an inbuild typescript support. So you dont have to worry anymore to add typescript files to your project.
 
 This React Boilerplate works on macOS, Windows, and Linux.<br>
 If something doesn’t work, please [file an issue](https://github.com/udaypydi/react-simple-boilerplate/issues/new/choose).<br>
