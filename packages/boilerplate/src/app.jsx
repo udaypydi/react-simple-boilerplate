@@ -4,6 +4,9 @@ import logo from './logo.png';
 import 'assets/css/main.css';
 import './app.scss';
 
+/**
+  App jsx - Roo file of app
+**/
 export default function App() {
   return (
     <div className="bg-blue-900 flex flex-col justify-center items-center p-20">
