@@ -13,7 +13,7 @@
     "@fortawesome/react-fontawesome": "^0.1.11",
     "bootstrap": "^4.5.0",
     "gray-matter": "^4.0.2",
-    "next": "9.4.4",
+    "next": "11.1.0",
     "react": "16.13.1",
     "react-bootstrap": "^1.0.1",
     "react-dom": "16.13.1",
